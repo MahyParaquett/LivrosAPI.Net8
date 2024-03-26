@@ -47,5 +47,35 @@ namespace LivrosAPI.Controllers
 
             return Ok(livros);
         }
+
+        [HttpPut]
+        public async Task<ActionResult<IEnumerable<Livro>>> UpdateLivro(Livro livro)
+        {
+            Livro registro = await _livroInterface.GetLivroById(livro.Id);
+            if (registro == null)
+            {
+                return NotFound("Registro não localizado!");  
+            }
+            
+            IEnumerable<Livro> livros = await _livroInterface.UpdateLivro(livro);
+
+            return Ok(livros);
+        }
+
+        [HttpDelete("{livroId}")]
+        public async Task<ActionResult<IEnumerable<Livro>>> DeleteLivro(int livroId)
+        {
+            Livro registro = await _livroInterface.GetLivroById(livroId);
+
+            if (registro == null)
+            {
+                return NotFound("Registro não localizado!");
+            }
+
+            IEnumerable<Livro> livros = await _livroInterface.DeleteLivro(livroId);
+
+            return Ok(livros);
+
+        }
     }
 }

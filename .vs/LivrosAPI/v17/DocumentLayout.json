@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MahyaraParaquettCout\\OneDrive - T2M - Test to Market Ltda\\Documentos\\treinamento-T2M\\Api.Net\\LivrosAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|c:\\users\\mahyaraparaquettcout\\onedrive - t2m - test to market ltda\\documentos\\treinamento-t2m\\api.net\\livrosapi\\livrosapi\\services\\livroservice\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|solutionrelative:livrosapi\\services\\livroservice\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|c:\\users\\mahyaraparaquettcout\\onedrive - t2m - test to market ltda\\documentos\\treinamento-t2m\\api.net\\livrosapi\\livrosapi\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|solutionrelative:livrosapi\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|c:\\users\\mahyaraparaquettcout\\onedrive - t2m - test to market ltda\\documentos\\treinamento-t2m\\api.net\\livrosapi\\livrosapi\\services\\livroservice\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|solutionrelative:livrosapi\\services\\livroservice\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{971CFBDC-DCBF-4FBB-81E3-2A43CC11CAAA}|LivrosAPI\\LivrosAPI.csproj|c:\\users\\mahyaraparaquettcout\\onedrive - t2m - test to market ltda\\documentos\\treinamento-t2m\\api.net\\livrosapi\\livrosapi\\services\\livroservice\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LivroController.cs",
               "DocumentMoniker": "C:\\Users\\MahyaraParaquettCout\\OneDrive - T2M - Test to Market Ltda\\Documentos\\treinamento-T2M\\Api.Net\\LivrosAPI\\LivrosAPI\\Controllers\\LivroController.cs",
               "RelativeDocumentMoniker": "LivrosAPI\\Controllers\\LivroController.cs",
               "ToolTip": "C:\\Users\\MahyaraParaquettCout\\OneDrive - T2M - Test to Market Ltda\\Documentos\\treinamento-T2M\\Api.Net\\LivrosAPI\\LivrosAPI\\Controllers\\LivroController.cs",
               "RelativeToolTip": "LivrosAPI\\Controllers\\LivroController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAowC4AAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAswEEAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T19:03:19.696Z",
               "IsPinned": true,
@@ -40,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LivroService.cs",
               "DocumentMoniker": "C:\\Users\\MahyaraParaquettCout\\OneDrive - T2M - Test to Market Ltda\\Documentos\\treinamento-T2M\\Api.Net\\LivrosAPI\\LivrosAPI\\Services\\LivroService\\LivroService.cs",
               "RelativeDocumentMoniker": "LivrosAPI\\Services\\LivroService\\LivroService.cs",
               "ToolTip": "C:\\Users\\MahyaraParaquettCout\\OneDrive - T2M - Test to Market Ltda\\Documentos\\treinamento-T2M\\Api.Net\\LivrosAPI\\LivrosAPI\\Services\\LivroService\\LivroService.cs",
               "RelativeToolTip": "LivrosAPI\\Services\\LivroService\\LivroService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCkAAAAxAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T19:00:56.632Z",
               "IsPinned": true,

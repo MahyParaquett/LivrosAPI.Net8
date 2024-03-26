@@ -30,9 +30,15 @@ namespace LivrosAPI.Services.LivroService
 
         }
 
-        public Task<IEnumerable<Livro>> DeleteLivro(int livroId)
+        public async Task<IEnumerable<Livro>> DeleteLivro(int livroId)
         {
-            throw new NotImplementedException();
+            using (var con = new SqlConnection(getConnection))
+            {
+                var sql = "delete from Livros where id = @Id";
+                await con.ExecuteAsync(sql, new { Id = livroId });
+                
+                return await con.QueryAsync<Livro>("select * from Livros");
+            }
         }
 
         public async Task<IEnumerable<Livro>> GetAllLivros()
@@ -55,9 +61,16 @@ namespace LivrosAPI.Services.LivroService
             }
         }
 
-        public Task<IEnumerable<Livro>> UpdateLivro(Livro livro)
+        public async Task<IEnumerable<Livro>> UpdateLivro(Livro livro)
         {
-            throw new NotImplementedException();
+            using (var con = new SqlConnection(getConnection))
+            {
+                var sql = "update Livros set titulo= @titulo, autor= @autor where id = @Id";
+                
+                await con.ExecuteAsync(sql, livro);
+
+                return await con.QueryAsync<Livro>("select * from Livros");
+            }
         }
     }
 }

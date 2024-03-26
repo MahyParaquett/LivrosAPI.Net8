@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LivrosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc3af68ba0cc937a328687395499e5ec47bfc8b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00b4f06b6684056674f821fd1942e6422aaf2c12")]
 [assembly: System.Reflection.AssemblyProductAttribute("LivrosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LivrosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
