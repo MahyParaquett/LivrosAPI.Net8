@@ -5,4 +5,6 @@ Nesse repositório trouxe o projeto para a vesão do .Net8, por isso, pode ser q
 
 * Dapper
 * SQL Server
-
+* Visual Studio 2022
+* ASP.NET Core 8
+  
